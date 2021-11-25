@@ -1,0 +1,90 @@
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    gap: 10%;
+    background: whitesmoke;
+}
+
+.leftform{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: fit-content;
+    padding: 20px;
+}
+
+.logoholder{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.heading{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputbox{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.caution{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.submitbutton{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.submit{
+    background: #fb4b03;
+    border: none;
+    border-radius: 5%;
+    height: 30px;
+    width: fit-content;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.submit:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.rightresponse{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
